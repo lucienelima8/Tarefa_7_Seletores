@@ -1,0 +1,120 @@
+:root {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: blue;
+    font-size: 1rem;
+
+}
+
+h1 {
+    text-align: center;
+}
+
+h1:hover {
+    color: red;
+    
+}
+
+#bloco_inteiro {
+    text-align: center;
+   
+}
+
+/*Linha 1*/
+.q11, .q16 {
+    border: 2px solid black;
+    background-color: red;
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+    
+}
+
+.q12, .q13, .q14, .q15 {
+    border: 1px solid #ccc;
+    background-color: red;
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+}
+
+/*Linha 2*/
+.q21, .q26 {
+    border: 1px solid #ccc;
+    background-color: red;
+    display: inline-block;
+    width: 200px;
+    height: 200px
+    
+
+}
+
+.q22, .q23, .q24, .q25 {
+    border: 1px solid #ccc;
+    background-color: blue;
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+
+}
+
+/*Linha 3*/
+.q31, .q36 {
+    border: 1px solid #ccc;
+    background-color: red;
+    display: inline-block;
+    width: 200px;
+    height: 200px    
+
+}
+
+.q32, .q33, .q34, .q35 {
+    border: 1px solid #ccc;
+    background-color: green;
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+
+}
+
+/*Linha 4*/
+.q41, .q46 {
+    border: 1px solid #ccc;
+    background-color: red;
+    display: inline-block;
+    width: 200px;
+    height: 200px     
+
+}
+
+.q42, .q43, .q44, .q45 {
+    border: 1px solid #ccc;
+    background-color: yellow;
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+
+}
+
+/*Linha 5*/
+.q51, .q56 {
+    border: 2px solid black;
+    background-color: red;
+    display: inline-block;
+    width: 200px;
+    height: 200px 
+
+}
+
+.q52, .q53, .q54, .q55 {
+    border: 1px solid #ccc;
+    background-color: red;
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+}
+
+
+
+
+
+
