@@ -1,12 +1,34 @@
+/*Tarefa 8: Seletores*/
+/*Aluna Luciene Lima*/
+
+/*Instruções da professora sobre a configuração:
+div {
+    display: inline-block;
+    border: 1px solid black;
+    width: 200px;
+    height: 200px;
+}
+*/
+
 :root {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: blue;
-    font-size: 1rem;
+    --fonte: Verdana, Geneva, Tahoma, sans-serif;
+    /*variáveis: borda black para os quadrados das quinas*/
+    --border_black: 1px solid black;
+    /*variáveis: cores q*/
+    --color_q_vermelho: rgba(255, 0, 0, 0.877);
+    --color_q_azul: rgba(0, 0, 255, 0.856);
+    --color_q_verde: rgba(0, 128, 0, 0.836);
+    --color_q_amarelo: rgba(255, 255, 0, 0.822);
+    background-color: rgba(238, 130, 238, 0.603);
+    /*cor de fundo da page*/
 
 }
 
 h1 {
+    font-family: var(--fonte);
     text-align: center;
+    color: blue;
+    font-size: 1.5rem;
 }
 
 h1:hover {
@@ -16,105 +38,138 @@ h1:hover {
 
 #bloco_inteiro {
     text-align: center;
+    /*margin-bottom: 2rem;*/
    
 }
 
-/*Linha 1*/
+    /*Linha 1*/
+/*Quadrados com bordas pretas*/
 .q11, .q16 {
-    border: 2px solid black;
-    background-color: red;
+    border: var(--border_black);
+    background-color: var(--color_q_vermelho);
     display: inline-block;
     width: 200px;
     height: 200px;
+    /*pra borda manter o tamanho da div*/
+    box-sizing: border-box;
+
     
 }
 
+/*Quadrados normais*/
 .q12, .q13, .q14, .q15 {
-    border: 1px solid #ccc;
-    background-color: red;
+    /*border: 1px solid #ccc;*/
+    background-color: var(--color_q_vermelho);
     display: inline-block;
     width: 200px;
     height: 200px;
+
 }
 
-/*Linha 2*/
+    /*Linha 2*/
+/*Quadrados normais v*/
 .q21, .q26 {
-    border: 1px solid #ccc;
-    background-color: red;
+    /*border: 1px solid #ccc;*/
+    background-color: var(--color_q_vermelho);
     display: inline-block;
     width: 200px;
-    height: 200px
+    height: 200px;
     
-
 }
 
+/*Quadrados normais az*/
 .q22, .q23, .q24, .q25 {
-    border: 1px solid #ccc;
-    background-color: blue;
+    /*border: 1px solid #ccc;*/
+    background-color: var(--color_q_azul);
     display: inline-block;
     width: 200px;
     height: 200px;
 
 }
 
-/*Linha 3*/
+    /*Linha 3*/
+/*Quadrados normais v*/
 .q31, .q36 {
-    border: 1px solid #ccc;
-    background-color: red;
+    background-color: var(--color_q_vermelho);
     display: inline-block;
     width: 200px;
-    height: 200px    
+    height: 200px;    
 
 }
 
+/*Quadrados normais vrd*/
 .q32, .q33, .q34, .q35 {
-    border: 1px solid #ccc;
-    background-color: green;
+    /*border: 1px solid #ccc;*/
+    /*background-color: green;*/
+    background-color: var(--color_q_verde);
     display: inline-block;
     width: 200px;
     height: 200px;
 
 }
 
-/*Linha 4*/
+    /*Linha 4*/
+/*Quadrados normais v*/
 .q41, .q46 {
-    border: 1px solid #ccc;
-    background-color: red;
+    background-color: var(--color_q_vermelho);
     display: inline-block;
     width: 200px;
-    height: 200px     
+    height: 200px;     
 
 }
 
+/*Quadrados normais am*/
 .q42, .q43, .q44, .q45 {
-    border: 1px solid #ccc;
-    background-color: yellow;
+    /*border: 1px solid #ccc;*/
+    /*background-color: yellow;*/
+    background-color: var(--color_q_amarelo);
     display: inline-block;
     width: 200px;
     height: 200px;
 
 }
 
-/*Linha 5*/
+    /*Linha 5*/
+/*Quadrados com bordas pretas*/
 .q51, .q56 {
-    border: 2px solid black;
-    background-color: red;
+    border: var(--border_black);
+    background-color: var(--color_q_vermelho);
     display: inline-block;
     width: 200px;
-    height: 200px 
+    height: 200px;
+    /*pra borda manter o tamanho da div*/
+    box-sizing: border-box;
+
 
 }
 
+/*Quadrados normais v*/
 .q52, .q53, .q54, .q55 {
-    border: 1px solid #ccc;
-    background-color: red;
+    /*border: 1px solid #ccc;*/
+    /*background-color: red;*/
+    background-color: var(--color_q_vermelho);
     display: inline-block;
     width: 200px;
     height: 200px;
 }
 
+/*rodapé*/
+footer {
+    font-family: var(--fonte);
+    text-align: center;
+    padding: 1em;
+    color: black;
+    font-size: .8rem;
+    margin-top: 1rem;
+    font-weight: bold;
+
+}
 
 
 
 
 
+
+
+
+/*Esse trabalho foi feito por Luciene Lima*/
