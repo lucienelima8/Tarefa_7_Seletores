@@ -39,8 +39,16 @@ h1:hover {
 #bloco_inteiro {
     text-align: center;
     /*margin-bottom: 2rem;*/
+
    
 }
+
+/*classe quadrado pra margem entre os quadrados*/
+.quadrado {
+    margin: -.1rem;
+
+}
+
 
     /*Linha 1*/
 /*Quadrados com bordas pretas*/
@@ -53,6 +61,7 @@ h1:hover {
     /*pra borda manter o tamanho da div*/
     box-sizing: border-box;
 
+
     
 }
 
@@ -64,6 +73,7 @@ h1:hover {
     width: 200px;
     height: 200px;
 
+
 }
 
     /*Linha 2*/
@@ -74,6 +84,7 @@ h1:hover {
     display: inline-block;
     width: 200px;
     height: 200px;
+
     
 }
 
@@ -84,6 +95,7 @@ h1:hover {
     display: inline-block;
     width: 200px;
     height: 200px;
+
 
 }
 
