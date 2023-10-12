@@ -11,5 +11,4 @@ div {
     height: 200px;
 }
 
-
-Clique aqui https://lucienelima8.github.io/Tarefa_7_Seletores/
+<a href="https://lucienelima8.github.io/Tarefa_7_Seletores/">Clique aqui</a>
