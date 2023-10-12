@@ -4,6 +4,7 @@ Tarefa 7: Seletores (curso Descodificadas - trilha 1 - 2023)
 Feito com HTML 5 e CSS 3.
 
 Requisitos passados pela professora:
+<br>
 div {
 <br>
     display: inline-block; <br>
