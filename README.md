@@ -5,10 +5,11 @@ Feito com HTML 5 e CSS 3.
 
 Requisitos passados pela professora:
 div {
-    display: inline-block;
-    border: 1px solid black; (para os quadrados das quinas)
-    width: 200px;
-    height: 200px;
+<br>
+    display: inline-block; <br>
+    border: 1px solid black; (para os quadrados das quinas) <br>
+    width: 200px; <br>
+    height: 200px; <br>
 }
 
 <a href="https://lucienelima8.github.io/Tarefa_7_Seletores/">Clique aqui</a>
