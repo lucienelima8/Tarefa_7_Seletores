@@ -13,4 +13,4 @@ div {
     height: 200px; <br>
 }
 
-<a href="https://lucienelima8.github.io/Tarefa_7_Seletores/">Clique aqui</a>
+<a href="https://lucienelima8.github.io/Tarefa_7_Seletores/" target="_blank">Clique aqui</a>
